@@ -8,10 +8,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Vegan Docs',
   tagline: 'veganism',
-  favicon: '',
+  
 
   // Set the production url of your site here
-  url: 'https://vegandocs.com',
+  url: 'https://vegandocs.vercel.app/ ',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -76,11 +76,11 @@ const config = {
             position: 'right',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/TheVeganAbhinav/vegandoc ',
             label: 'GitHub',
-            position: 'left',
+            position: 'right',
           },
         ],
       },
