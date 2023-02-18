@@ -30,7 +30,7 @@ const FeatureList = [
     description: (
       <>
         Special things coming soon
-     </>
+     < />
     ),
   },
 ];
